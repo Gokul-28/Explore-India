@@ -260,6 +260,7 @@ About
   }
   .about-photo {
     position: relative;
+    border-radius: 5px;
   }
 }
 /*

@@ -1,5 +1,5 @@
 import React from 'react';
-import { pageLinks,socialLinks } from '../data';
+import { pageLinks,socialLinks } from '../data'; // import the data from the data.js (two variable - one for page and another for Social media)
 
 const Navbar = () => {
   return (
@@ -7,7 +7,7 @@ const Navbar = () => {
     <nav className="navbar">
   <div className="nav-center">
     <div className="nav-header">
-      {/* <img src={logo}  className="nav-logo" alt="backroads" /> */}
+      <h3 className='nav-logo'> Explore India</h3>
       <button type="button" className="nav-toggle" id="nav-toggle">
         <i className="fas fa-bars"></i>
       </button>
