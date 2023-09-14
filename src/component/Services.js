@@ -22,7 +22,7 @@ const Services = () => {
               </article>
             );
           })}
-          ;
+          
         </div>
       </section>
     </div>
